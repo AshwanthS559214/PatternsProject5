@@ -1,7 +1,7 @@
 /**
  * @aswanth
  */
-package com.example.DMS.Controllers;
+package com.example.DMS.Models;
 
 import javax.persistence.Entity;
 import javax.persistence.Id;
