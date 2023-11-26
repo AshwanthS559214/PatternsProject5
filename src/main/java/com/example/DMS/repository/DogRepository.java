@@ -1,12 +1,12 @@
 /**
  * @aswanth
  */
-package com.example.DMS.Controllers;
+package com.example.DMS.repository;
 import java.util.List;
 
 import org.springframework.data.repository.CrudRepository;
 
-import com.bandiClasses.DMS.Models.Dog;
+import com.example.DMS.Models.Dog;
 
 public interface DogRepository extends CrudRepository<Dog, Integer> {
 	List<Dog> findByName(String name);
