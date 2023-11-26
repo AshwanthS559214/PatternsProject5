@@ -12,10 +12,10 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.servlet.ModelAndView;
 
-import com.bandiClasses.DMS.Models.Dog;
-import com.bandiClasses.DMS.Models.Trainer;
-import com.bandiClasses.DMS.repository.DogRepository;
-import com.bandiClasses.DMS.repository.TrainerRepository;
+import com.example.DMS.Models.Dog;
+import com.example.DMS.Models.Trainer;
+import com.example.DMS.repository.DogRepository;
+import com.example.DMS.repository.TrainerRepository;
 
 @Controller
 public class DogController {
